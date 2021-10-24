@@ -13,7 +13,7 @@ public class Task2 {
           double y = scan.nextDouble();
           if(y==0)
               break;
-          System.out.println(x%y);
+          System.out.println(x/y);
 
 
 

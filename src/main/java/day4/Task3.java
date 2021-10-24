@@ -7,15 +7,25 @@ public class Task3 {
     public static void main(String[] args) {
         Random random = new Random();
         int [][] array = new int[12][8];
-        int sum = 0;
-        for(int i = 0; i<12;i++){
-            for(int j = 0; j < 8 ;j++){
-                array[i][j] = random.nextInt(50);
 
-                sum =sum + array[i][j];
+        for(int i = 0; i<array.length;i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = random.nextInt(50);
             }
         }
-        System.out.println(Arrays.toString(array));
-        System.out.println(sum);
+
+        int sumMax = 0;
+        int sumIndx = 0;
+        for(int i = 0; i<array.length;i++){
+            int sum = 0;
+            for(int j = 0; j < array[i].length ;j++){
+                sum =sum + array[i][j];
+            }
+            if (sum>=sumMax)
+                sumMax = sum;
+                sumIndx = i;
+        }
+
+        System.out.println(sumIndx);
     }
 }

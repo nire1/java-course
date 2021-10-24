@@ -12,7 +12,7 @@ public class Task3 {
               if (y==0){
                   System.out.println("Деление на 0");
               continue;}
-              System.out.println(x%y);
+              System.out.println(x/y);
 
           }
       }
