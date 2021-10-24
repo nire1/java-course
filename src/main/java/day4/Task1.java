@@ -27,6 +27,7 @@ public class Task1 {
            sum = sum+array[x];
 
         }
+
         System.out.println(Arrays.toString(array));
         System.out.println("Длина массива: "+array.length);
         System.out.println("Количество чисел больше 8: "+a);
