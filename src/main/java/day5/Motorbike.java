@@ -1,11 +1,11 @@
 package day5;
 
-public class MOTORBIKE {
-    String model;
-    String color;
+public class Motorbike {
+    private String model;
+    private String color;
     int age;
 
-    public MOTORBIKE(String model, String color, int age) {
+    public Motorbike(String model, String color, int age) {
         this.model = model;
         this.color = color;
         this.age = age;
