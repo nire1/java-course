@@ -17,7 +17,7 @@ public class Airplane {
 
     @Override
     public String toString() {
-        return  ("Изготовитель: " + producer + ",год выпуска: " +", длина: "+", вес: ''' , количество топлива в баке: %d", producer, year, length, weight, fuel);
+        return  ("Изготовитель: " + producer + ",год выпуска: "+ year +", длина: "+length+", вес:" +weight+ ", количество топлива в баке:" + fuel);
     }
 
     public static void compareAirplanes(Airplane x, Airplane y) {
