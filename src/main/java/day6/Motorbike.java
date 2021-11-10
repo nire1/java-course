@@ -10,12 +10,13 @@ public class Motorbike {
     }
 
     int yearDifference(int inputYear){
-        return inputYear - age;
+        return Math.abs(inputYear-age);
     }
 
     public Motorbike(String model, String color, int age) {
         this.model = model;
         this.color = color;
+
         this.age = age;
     }
 

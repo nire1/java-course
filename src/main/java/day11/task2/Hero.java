@@ -3,7 +3,6 @@ package day11.task2;
 public abstract class Hero implements PhyAttack {
     int health;
     int physAtt;
-    int magicAtt;
     double physDef;
     double magicDef;
 

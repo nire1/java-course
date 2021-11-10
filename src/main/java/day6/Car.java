@@ -10,7 +10,8 @@ public class Car {
     }
 
     int yearDifference(int inputYear) {
-        return inputYear - age;
+
+        return Math.abs(inputYear-age);
     }
 
     public String getModel() {

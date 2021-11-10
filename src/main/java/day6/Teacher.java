@@ -5,14 +5,14 @@ import java.util.Random;
 public class Teacher {
     private String name;
     private  String subject;
-
+    Random random = new Random();
     public Teacher(String name, String subject) {
         this.name = name;
         this.subject = subject;
     }
 
     void evaluate(Student s){
-        Random random = new Random();
+
         int min = 2;
         int max = 5;
         int diff = max - min;
