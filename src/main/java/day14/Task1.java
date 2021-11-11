@@ -29,7 +29,7 @@ public class Task1 {
                 maxCountOfFile += Integer.parseInt(number);
             }
 
-
+            scanner.close();
             System.out.println(maxCountOfFile);
 
 

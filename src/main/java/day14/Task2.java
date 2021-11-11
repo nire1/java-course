@@ -32,6 +32,7 @@ public class Task2 {
 
 
             }
+            scanner.close();
             return peoplesList;
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");

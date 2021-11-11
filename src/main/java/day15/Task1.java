@@ -30,7 +30,9 @@ public class Task1 {
                 }
 
             }
+
             printWriter.close();
+            scanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("Файл 2 не найден");
         } catch (IllegalArgumentException e) {
